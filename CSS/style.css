@@ -136,6 +136,7 @@ body::-webkit-scrollbar-thumb {
     font-family: 'Roboto', sans-serif;
     font-size: small;
     padding: 2em;
+    line-height: 1.75;
 }
 
 .hero-img{
