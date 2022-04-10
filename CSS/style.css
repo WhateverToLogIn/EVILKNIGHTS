@@ -87,7 +87,7 @@ body::-webkit-scrollbar-thumb {
 .section-background{
     background-image: linear-gradient(rgba(0, 0, 0, 0.466),rgb(0, 0, 0, 0.466)),
      url(../Assets/wallhaven-kwv531.jpg);
-    height: 500px;
+    height: 600px;
     width: 100%;
     background-size: cover;
     background-position: center;
