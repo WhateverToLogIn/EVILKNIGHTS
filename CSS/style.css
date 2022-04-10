@@ -1,0 +1,134 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scrollbar-width: thin;
+    scrollbar-color: rgb(0, 0, 0) rgb(255, 255, 255);
+}       
+
+body{
+    scrollbar-width: thin;
+    scrollbar-color: rgb(0, 0, 0) rgb(255, 255, 255)
+}
+
+body::-webkit-scrollbar{
+    width: 10px;
+}
+
+body::-webkit-scrollbar-track {
+    background: #ffffff;
+}
+
+body::-webkit-scrollbar-thumb {
+  background-color: #000000;    /* color of the scroll thumb */
+}
+
+.nav-menu-container{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    background-color: #ffffff;
+}
+
+.nav-menu{
+    height: 4em;
+    width: 95vw;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.menu-items{
+    color: white;
+    margin: 0;
+    display: flex;
+    list-style: none;
+    align-items: center;
+    gap: 1em;
+}
+
+.menu-items-a{
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    font-family: 'Roboto', sans-serif;
+    transition: 0.2s;
+}
+
+.menu-items-a:hover{
+    color: #ffa80a;
+
+}
+
+.logo{
+    display: flex;
+    align-items: center;
+    gap: 0.2em;
+    margin-left: -6px;
+}
+
+.logo-item{
+    width: 2.5em;
+}
+
+.logo-phrase{
+
+    color: rgb(0, 0, 0);
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+    font-size: 1.2em;
+}
+
+.header-title{
+    color: white;
+    font-family: 'Roboto', sans-serif;
+}
+
+.section-background{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.466),rgb(0, 0, 0, 0.466)),
+     url(../Assets/wallhaven-kwv531.jpg);
+    height: 500px;
+    width: 100%;
+    background-size: cover;
+    background-position: center;
+    color: white;
+    display: flex;
+}
+
+.section-background-h{
+    text-align: center;
+    font-size: 2.2em;
+    font-family: 'Poppins', sans-serif;
+    color: #fff;
+    margin: auto;
+    margin-top: 20%;
+}
+
+.section-background-strong{
+    font-family: 'Poppins', sans-serif;
+    color: black;
+    -webkit-text-stroke: 1px rgb(255, 255, 255);
+}
+
+.section-title{
+    color: #ff2a2c;
+}
+
+.hero{
+    width: 100%;
+    display: flex;
+}
+
+.hero-h{
+    text-align: center;
+    margin-top: 2.5em;
+}
+
+.hero-p{
+    text-align: center;
+    padding: 1em;
+}
+
+.hero-img{
+    width: 100vh;
+}
+
