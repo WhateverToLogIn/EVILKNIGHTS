@@ -114,18 +114,27 @@ body::-webkit-scrollbar-thumb {
 }
 
 .hero{
-    width: 100%;
     display: flex;
+}
+
+.text-hero{
+    width: 50%;
+    align-items: center;
+    padding: 0px 2em;
 }
 
 .hero-h{
     text-align: center;
-    margin-top: 2.5em;
+    font-family: 'Poppins', sans-serif;
+    margin-top: 1em;
+    text-transform: uppercase;
 }
 
 .hero-p{
     text-align: center;
-    padding: 1em;
+    font-family: 'Roboto', sans-serif;
+    font-size: small;
+    padding: 2em;
 }
 
 .hero-img{
