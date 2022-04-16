@@ -122,12 +122,16 @@ body::-webkit-scrollbar-thumb {
 }
 
 .hero{
+    
     display: flex;
+    flex-wrap: wrap;
 }
 
 .text-hero{
     background: linear-gradient(#e9ecef, #E6F0FF);
-    width: 50%;
+    width: 636px;
+    min-width: 320px;
+    height: 332px;
     align-items: center;
     padding: 0px 2em;
 }
@@ -135,7 +139,7 @@ body::-webkit-scrollbar-thumb {
 .hero-h{
     text-align: center;
     font-family: 'Poppins', sans-serif;
-    margin-top: 1em;
+    margin-top: 0.8em;
     font-size: 2.5em;;
     text-transform: uppercase;
 }
@@ -143,23 +147,27 @@ body::-webkit-scrollbar-thumb {
 .hero-p{
     text-align: center;
     font-family: 'Roboto', sans-serif;
-    padding: 2em;
+    padding: 1em;
     font-size: 1em;
     line-height: 1.75;
 }
 
 .hero-img{
-    width: 50%;
+    width: 636px;
     height: 332px;
+    min-width: 320px;
 }
 
 .phrase-section{
+    flex-wrap: wrap;
     display: flex;
     height: 332px;
 }
 
 .phrase-container{
-    width: 50%;
+    width: 636px;
+    min-width: 320px;
+    height: 332px;
     background: linear-gradient(#14213d, #333333);
 }
 
@@ -174,7 +182,9 @@ body::-webkit-scrollbar-thumb {
 
 .phrase-area{
     background: linear-gradient(#333333, #121212);
-    width: 50%;
+    width: 636px;
+    height: 332px;
+    min-width: 320px;
 }
 
 .phrase-h1{
@@ -199,6 +209,7 @@ footer{
     justify-content: space-between;
     max-width: 1200px;
     margin: auto;
+    min-width: 320px;
 }
 
 .box-footer{
