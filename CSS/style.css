@@ -84,7 +84,13 @@ body::-webkit-scrollbar-thumb {
     font-family: 'Roboto', sans-serif;
 }
 
-.section-background{
+.section{
+    height: 532px;
+    min-height: 480px;
+    min-width: 320px;
+}
+
+.section{
     background-image: linear-gradient(rgba(0, 0, 0, 0.466),rgb(0, 0, 0, 0.466)),
      url(../Assets/wallhaven-kwv531.jpg);
     height: 532px;
@@ -93,20 +99,19 @@ body::-webkit-scrollbar-thumb {
     min-width: 320px;
     background-size: cover;
     background-position: center;
-    color: white;
-    display: flex;
+    text-align: center;
+    padding: 225px 50px;
 }
 
-.section-background-h{
-    text-align: center;
+
+.section .section-background-h{
     font-size: 2.2em;
     font-family: 'Poppins', sans-serif;
     color: #fff;
-    margin: auto;
-    margin-top: 20%;
+    margin: 0px 0px;
 }
 
-.section-background-strong{
+.section .section-background-strong{
     font-family: 'Poppins', sans-serif;
     color: black;
     -webkit-text-stroke: 1px rgb(255, 255, 255);
@@ -121,7 +126,7 @@ body::-webkit-scrollbar-thumb {
 }
 
 .text-hero{
-    background: linear-gradient(#FFDEF2, #E6F0FF);
+    background: linear-gradient(#e9ecef, #E6F0FF);
     width: 50%;
     align-items: center;
     padding: 0px 2em;
