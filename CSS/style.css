@@ -117,11 +117,11 @@ section{
     height: 800px;
 }
 
-.hero-img{
-    width: 500px;
+.hero-img {
+    width: 50%;
     flex-grow: 1;
     height: 400px;
-    max-width: 800px;   
+    max-width: 800px;
 }
 
 .hero-img img{
