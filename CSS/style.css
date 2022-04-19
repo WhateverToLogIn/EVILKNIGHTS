@@ -118,7 +118,7 @@ section{
 }
 
 .hero-img{
-    width: 50%;
+    min-width: 375px;
     flex-grow: 1;
     height: 400px;
     max-width: 800px;   
