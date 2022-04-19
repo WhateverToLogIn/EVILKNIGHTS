@@ -122,16 +122,18 @@ body::-webkit-scrollbar-thumb {
 }
 
 .hero{
-    
     display: flex;
     flex-wrap: wrap;
+    height: 365px;
+    width: 100%;
 }
 
 .text-hero{
     background: linear-gradient(#e9ecef, #E6F0FF);
     width: 636px;
     min-width: 320px;
-    height: 332px;
+    height: 365px;
+    flex-grow: 1;
     align-items: center;
     padding: 0px 2em;
 }
@@ -153,25 +155,28 @@ body::-webkit-scrollbar-thumb {
 }
 
 .hero-img{
-    width: 636px;
-    height: 332px;
+    width: 636%;
+    height: 365px;
     min-width: 320px;
+    flex-grow: 1;
 }
 
 .phrase-section{
     flex-wrap: wrap;
     display: flex;
-    height: 332px;
+    height: 365px;
+    width: 100%;
 }
 
-.phrase-container{
+.phrase-section .phrase-container{
     width: 636px;
     min-width: 320px;
-    height: 332px;
+    height: 365px;
+    flex-grow: 1;
     background: linear-gradient(#14213d, #333333);
 }
 
-.phrase-h{    
+.phrase-container .phrase-h {    
     color:  #ffa80a ;
     text-align: center;
     margin-top: 22%;
@@ -183,11 +188,12 @@ body::-webkit-scrollbar-thumb {
 .phrase-area{
     background: linear-gradient(#333333, #121212);
     width: 636px;
-    height: 332px;
+    height: 365px;
+    flex-grow: 1;
     min-width: 320px;
 }
 
-.phrase-h1{
+.phrase-area .phrase-h1{
     color: white;
     text-align: center;
     margin-top: 22%;
@@ -197,19 +203,21 @@ body::-webkit-scrollbar-thumb {
 }
 
 footer{
-    width: 100%;
-    padding: 20px 0px;
+    width: 1200px;
+    min-width: 300px;
+    padding: 50px 0px;
     background-color: white;
     font-family: 'Poppins', sans-serif;
+    flex-wrap: wrap;
 }
 
 .container-footer{
     display: flex;
-    flex-wrap: wrap;
+
     justify-content: space-between;
     max-width: 1200px;
     margin: auto;
-    min-width: 320px;
+    
 }
 
 .box-footer{
