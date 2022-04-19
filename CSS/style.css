@@ -120,6 +120,7 @@ section{
 .hero-img{
     min-width: 375px;
     flex-grow: 1;
+    width: 500px;
     height: 400px;
     max-width: 800px;   
 }
