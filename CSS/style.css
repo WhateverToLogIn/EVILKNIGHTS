@@ -121,6 +121,7 @@ section{
     width: 500px;
     flex-grow: 1;
     height: 400px;
+    max-width: 800px;   
 }
 
 .hero-img img{
@@ -130,6 +131,7 @@ section{
 
 .text-hero{
     width: 500px;
+    max-width: 800px;
     height: 400px;
     flex-grow: 1;
 }
@@ -152,6 +154,7 @@ section{
 
 .phrase-section{
     width: 500px;
+    max-width: 800px;
     min-width: 320px;
     height: 400px;
     flex-grow: 1;
@@ -169,6 +172,7 @@ section{
 
 .phrase-section-2{
     width: 500px;
+    max-width: 800px;
     min-width: 320px;
     height: 400px;
     flex-grow: 1;
